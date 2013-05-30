@@ -1,0 +1,67 @@
+---- config
+title: 'Mojo::DOM: XML parsing is fun again!'
+
+## XXX For 1024x768 resolution (91x38 terminal size):
+##indent: 4
+#indent: 0
+#height: 35
+#width: 91
+
+# XXX For 800x600 resolution (71x29 terminal size):
+indent: 0
+height: 26
+width: 71
+
+skip: 0
+
+---- center
+Mojo::DOM:
+XML parsing is fun again!
+
+by
+Tommy Stanton
+tommystanton AT gmail.com
+http://tommystanton.com
+
+Los Angeles Perl Mongers
+20130529
+
+----
+
+== Mojolicious and Mojo::DOM
+
++* Mojo::DOM is just one piece of Mojolicious
+
++* Use Mojo::DOM to traverse a DOM (Document Object Model) tree
++  - Parse HTML, XHTML, XML, whatever...
++  - I heard about it from this blog post, thanks Joel Berger:
++    > http://blogs.perl.org/users/joel_berger/2012/10/an-example-using-mojodom-for-rewriting-html.html
+
++* Mojo::DOM is a good candidate for interacting with an XML-driven API
++  - See WebService::Mirth for an example
+
+---- xml,i0
+
+---- include inc/cds.xml
+
+---- perl,i0
+
+---- include inc/report_cds.pl
+
+---- xml,i0
+
+---- include inc/foobar_channel.xml
+
+---- perl,i0
+
+---- include inc/modify_channel.pl
+
+---- center
+The End
+
+Tommy Stanton
+tommystanton AT gmail.com
+http://tommystanton.com
+
+Any Questions?
+Suggestions?

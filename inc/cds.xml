@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cds>
+  <cd>
+    <artist>The Beach Boys</artist>
+    <title>Endless Summer</title>
+    <year>1974</year>
+  </cd>
+  <cd>
+    <artist>Huey Lewis and the News</artist>
+    <title>Sports</title>
+    <year>1983</year>
+  </cd>
+  <cd>
+    <artist>Bela Fleck &amp; the Flecktones</artist>
+    <title>Live Art</title>
+    <year>1996</year>
+  </cd>
+</cds>

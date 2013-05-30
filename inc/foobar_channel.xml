@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<channel>
+  <id>dc444818-9b64-42db-9d59-3d478c9ea3ef</id>
+  <name>foobar</name>
+  <description>Feed medical records to other channels</description>
+  <enabled>true</enabled>
+  <destinationConnectors>
+    <connector>
+      <name>to_baz</name>
+      <properties>
+        <property name="DataType">Channel Writer</property>
+        <property name="host">a25ea24c-d8f4-439a-9063-62f8a2b6a4b1</property>
+      </properties>
+      <enabled>true</enabled>
+    </connector>
+    <connector>
+      <name>to_quux</name>
+      <properties>
+        <property name="DataType">Channel Writer</property>
+        <property name="host">8875ec5a-f871-4082-877c-e942383e352b</property>
+      </properties>
+      <enabled>true</enabled>
+    </connector>
+  </destinationConnectors>
+</channel>

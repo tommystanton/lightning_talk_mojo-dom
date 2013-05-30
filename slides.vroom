@@ -35,7 +35,7 @@ Los Angeles Perl Mongers
 +* Use Mojo::DOM to traverse a DOM (Document Object Model) tree
 +  - Parse HTML, XHTML, XML, whatever...
 +  - I heard about it from this blog post, thanks Joel Berger:
-+    > http://blogs.perl.org/users/joel_berger/2012/10/an-example-using-mojodom-for-rewriting-html.html
+    http://blogs.perl.org/users/joel_berger/2012/10/an-example-using-mojodom-for-rewriting-html.html
 
 +* Mojo::DOM is a good candidate for interacting with an XML-driven API
 +  - See WebService::Mirth for an example

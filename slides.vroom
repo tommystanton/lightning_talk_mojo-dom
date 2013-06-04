@@ -31,6 +31,7 @@ YAPC::NA 2013
 == Mojolicious and Mojo::DOM
 
 +* Mojo::DOM is just one piece of Mojolicious
++  - "web development can be fun again" -- http://mojolicio.us/
 
 +* Use Mojo::DOM to traverse a DOM (Document Object Model) tree
 +  - Parse HTML, XHTML, XML, whatever...

@@ -41,6 +41,14 @@ YAPC::NA 2013
 +* Mojo::DOM is a good candidate for interacting with an XML-driven API
 +  - See WebService::Mirth for an example
 
+----
+
+== Examples
+
++* 2 examples to show:
++  - Parsing XML and extracting values at particular nodes
++  - Parsing XML and modifying a node's value in place
+
 ---- xml,i0
 
 ---- include inc/cds.xml
